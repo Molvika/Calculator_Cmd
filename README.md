@@ -3,16 +3,17 @@ Command Line Calculator
 
 This project is based on C++:
 In this command line calculator, the user will be able to provide the inputs and the operation he has to perform on the inputs.
-The result is saved in a pre-defined variable called ans. 
+The result will be shown on the command line.
 
-Class Calculator has all the operational funcions inside it.
+Class Calculator has all the operational functions inside it.
 
 There are four Operations as of now:
-1. add(int &num1, int &num2)
-2. subtract(int &num1, int &num2)
-3. multiply(int &num1, int &num2)
-4. divide(int &num1, int &num2)
 
-All the functions are taking the parameters by reference so that copy of variables can be avoided.
+1. void on_addition(double num1, double num2);
+2. void on_subtraction(double num1, double num2);
+3. void on_multiplication(double num1, double num2);
+4. void on_division(double num1, double num2);
+Can be increased as per the usability.
 
-The Calculate function calculates an expression. It uses the saved variables. I have generated code which has declaration of the variables.
+Calculator object can be used to access the operational functions inside the class.
+Class also contains one fail check if the input supplied by the user is not valid and in case cin fails, it will ask for the input again until the input is valid one.
