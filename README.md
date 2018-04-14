@@ -16,4 +16,7 @@ There are four Operations as of now:
 Can be increased as per the usability.
 
 Calculator object can be used to access the operational functions inside the class.
+A do while loop is used to do the operations again without exiting.
 Class also contains one fail check if the input supplied by the user is not valid and in case cin fails, it will ask for the input again until the input is valid one.
+
+The Class can be increased for other functional operations of the Calculator also.
